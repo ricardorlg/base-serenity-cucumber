@@ -1,0 +1,92 @@
+{
+  "report": {
+    "title": "Serenity Summary Report",
+    "tagCategoryTitle": "Category",
+    "version": "",
+    "date": "2021-10-06T19:10:56.427"
+  },
+  "results": {
+    "counts": {
+      "total": 1,
+      "success": 1,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "percentages": {
+      "success": 100,
+      "pending": 0,
+      "ignored": 0,
+      "skipped": 0,
+      "failure": 0,
+      "error": 0,
+      "compromised": 0
+    },
+    "totalTestDuration": 6503,
+    "totalClockDuration": 0,
+    "minTestDuration": 6503,
+    "maxTestDuration": 6503,
+    "averageTestDuration": 6503
+  },
+  "resultsByFeature": [
+    {
+      "featureName": "Search by keyword",
+      "scenarios": [
+        {
+          "title": "Searching for a term",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frequentFailures": [
+  ],
+  "unstableFeatures": [
+  ],
+  "coverage": [
+    {
+      "tagTitle": "Feature",
+      "tagCoverages": [
+        {
+          "tagName": "Search by keyword",
+          "testCount": 1,
+          "successRate": "100%",
+          "counts": {
+            "total": 1,
+            "success": 1,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          },
+          "percentages": {
+            "success": 100,
+            "pending": 0,
+            "ignored": 0,
+            "skipped": 0,
+            "failure": 0,
+            "error": 0,
+            "compromised": 0
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ]
+}
+
+
+
