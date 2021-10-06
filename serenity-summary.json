@@ -3,7 +3,7 @@
     "title": "Serenity Summary Report",
     "tagCategoryTitle": "Category",
     "version": "",
-    "date": "2021-10-06T19:40:35.242"
+    "date": "2021-10-06T19:50:19.817"
   },
   "results": {
     "counts": {
@@ -25,11 +25,11 @@
       "error": 0,
       "compromised": 0
     },
-    "totalTestDuration": 12561,
-    "totalClockDuration": 10315,
-    "minTestDuration": 2428,
-    "maxTestDuration": 10133,
-    "averageTestDuration": 6280
+    "totalTestDuration": 8280,
+    "totalClockDuration": 6337,
+    "minTestDuration": 2108,
+    "maxTestDuration": 6172,
+    "averageTestDuration": 4140
   },
   "resultsByFeature": [
     {
