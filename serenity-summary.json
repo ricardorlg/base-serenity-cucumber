@@ -3,12 +3,12 @@
     "title": "Serenity Summary Report",
     "tagCategoryTitle": "Category",
     "version": "",
-    "date": "2021-10-06T19:10:56.427"
+    "date": "2021-10-06T19:40:35.242"
   },
   "results": {
     "counts": {
-      "total": 1,
-      "success": 1,
+      "total": 2,
+      "success": 2,
       "pending": 0,
       "ignored": 0,
       "skipped": 0,
@@ -25,11 +25,11 @@
       "error": 0,
       "compromised": 0
     },
-    "totalTestDuration": 6503,
-    "totalClockDuration": 0,
-    "minTestDuration": 6503,
-    "maxTestDuration": 6503,
-    "averageTestDuration": 6503
+    "totalTestDuration": 12561,
+    "totalClockDuration": 10315,
+    "minTestDuration": 2428,
+    "maxTestDuration": 10133,
+    "averageTestDuration": 6280
   },
   "resultsByFeature": [
     {
@@ -37,6 +37,17 @@
       "scenarios": [
         {
           "title": "Searching for a term",
+          "result": "success",
+          "outcomes": [
+            {
+              "result": "success",
+              "description": "",
+              "errorMessage": ""
+            }
+          ]
+        },
+        {
+          "title": "Try to search without term",
           "result": "success",
           "outcomes": [
             {
@@ -59,11 +70,11 @@
       "tagCoverages": [
         {
           "tagName": "Search by keyword",
-          "testCount": 1,
+          "testCount": 2,
           "successRate": "100%",
           "counts": {
-            "total": 1,
-            "success": 1,
+            "total": 2,
+            "success": 2,
             "pending": 0,
             "ignored": 0,
             "skipped": 0,
