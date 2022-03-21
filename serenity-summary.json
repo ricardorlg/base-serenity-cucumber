@@ -1,103 +1,104 @@
 {
-  "report": {
-    "title": "Serenity Summary Report",
-    "tagCategoryTitle": "Category",
-    "version": "",
-    "date": "2021-10-06T19:50:19.817"
-  },
-  "results": {
+"report": {
+"title": "Serenity Summary Report",
+"tagCategoryTitle": "Category",
+"version": "",
+"date": "2022-03-21T18:34:45.719"
+},
+"results": {
+"counts": {
+"total": 2,
+"success": 2,
+"pending": 0,
+"ignored": 0,
+"skipped": 0,
+"aborted": 0,
+"failure": 0,
+"error": 0,
+"compromised": 0
+},
+"percentages": {
+"success": 100,
+"pending": 0,
+"ignored": 0,
+"skipped": 0,
+"aborted": 0,
+"failure": 0,
+"error": 0,
+"compromised": 0
+},
+"totalTestDuration": 12370,
+"totalClockDuration": 12586,
+"minTestDuration": 1999,
+"maxTestDuration": 10371,
+"averageTestDuration": 6185
+},
+"resultsByFeature": [
+  {
+  "featureName": "Search by keyword",
+  "scenarios": [
+    {
+    "title": "Searching for a term",
+    "result": "success",
+      "outcomes": [
+        {
+        "result": "success",
+        "description": "",
+        "errorMessage": ""
+        }
+      ]
+    },
+    {
+    "title": "Try to search without term",
+    "result": "success",
+      "outcomes": [
+        {
+        "result": "success",
+        "description": "",
+        "errorMessage": ""
+        }
+      ]
+    }
+  ]
+  }
+],
+"frequentFailures": [
+],
+"unstableFeatures": [
+],
+"coverage": [
+  {
+  "tagTitle": "Feature",
+  "tagCoverages": [
+    {
+    "tagName": "Search by keyword",
+    "testCount": 2,
+    "successRate": "100%",
     "counts": {
-      "total": 2,
-      "success": 2,
-      "pending": 0,
-      "ignored": 0,
-      "skipped": 0,
-      "failure": 0,
-      "error": 0,
-      "compromised": 0
+    "total": 2,
+    "success": 2,
+    "pending": 0,
+    "ignored": 0,
+    "skipped": 0,
+    "aborted": 0,
+    "failure": 0,
+    "error": 0,
+    "compromised": 0
     },
     "percentages": {
-      "success": 100,
-      "pending": 0,
-      "ignored": 0,
-      "skipped": 0,
-      "failure": 0,
-      "error": 0,
-      "compromised": 0
-    },
-    "totalTestDuration": 8280,
-    "totalClockDuration": 6337,
-    "minTestDuration": 2108,
-    "maxTestDuration": 6172,
-    "averageTestDuration": 4140
-  },
-  "resultsByFeature": [
-    {
-      "featureName": "Search by keyword",
-      "scenarios": [
-        {
-          "title": "Searching for a term",
-          "result": "success",
-          "outcomes": [
-            {
-              "result": "success",
-              "description": "",
-              "errorMessage": ""
-            }
-          ]
-        },
-        {
-          "title": "Try to search without term",
-          "result": "success",
-          "outcomes": [
-            {
-              "result": "success",
-              "description": "",
-              "errorMessage": ""
-            }
-          ]
-        }
-      ]
+    "success": 100,
+    "pending": 0,
+    "ignored": 0,
+    "skipped": 0,
+    "aborted": 0,
+    "failure": 0,
+    "error": 0,
+    "compromised": 0
     }
-  ],
-  "frequentFailures": [
-  ],
-  "unstableFeatures": [
-  ],
-  "coverage": [
-    {
-      "tagTitle": "Feature",
-      "tagCoverages": [
-        {
-          "tagName": "Search by keyword",
-          "testCount": 2,
-          "successRate": "100%",
-          "counts": {
-            "total": 2,
-            "success": 2,
-            "pending": 0,
-            "ignored": 0,
-            "skipped": 0,
-            "failure": 0,
-            "error": 0,
-            "compromised": 0
-          },
-          "percentages": {
-            "success": 100,
-            "pending": 0,
-            "ignored": 0,
-            "skipped": 0,
-            "failure": 0,
-            "error": 0,
-            "compromised": 0
-          }
-        }
-      ]
     }
-  ],
-  "tags": [
   ]
+  }
+],
+"tags": [
+]
 }
-
-
-

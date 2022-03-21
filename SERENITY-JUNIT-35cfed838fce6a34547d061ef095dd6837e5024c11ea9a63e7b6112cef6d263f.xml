@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Search by keyword" skipped="0" tests="2" time="8.28" timestamp="2021-10-06 07:50:19"><testcase name="Searching for a term"/><testcase name="Try to search without term"/></testsuite>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Search by keyword" skipped="0" tests="2" time="12.37" timestamp="2022-03-21 06:34:45"><testcase name="Searching for a term"/><testcase name="Try to search without term"/></testsuite>
