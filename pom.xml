@@ -10,11 +10,11 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>1.5.31</kotlin.version>
+        <kotlin.version>1.6.10</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
-        <serenity.version>2.6.0</serenity.version>
-        <serenity.maven.version>2.6.0</serenity.maven.version>
-        <serenity.cucumber.version>2.6.0</serenity.cucumber.version>
+        <serenity.version>3.2.1</serenity.version>
+        <serenity.maven.version>3.2.1</serenity.maven.version>
+        <serenity.cucumber.version>3.2.1</serenity.cucumber.version>
         <encoding>UTF-8</encoding>
     </properties>
     <dependencies>
@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>net.serenity-bdd</groupId>
-            <artifactId>serenity-cucumber6</artifactId>
+            <artifactId>serenity-cucumber</artifactId>
             <version>${serenity.cucumber.version}</version>
             <scope>test</scope>
         </dependency>
